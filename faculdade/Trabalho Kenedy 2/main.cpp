@@ -6,6 +6,7 @@
 using namespace std;
 
 int main(){
+
     setlocale(LC_ALL,"portuguese");
 
     int vop;
@@ -58,7 +59,7 @@ int main(){
                     cout<<" Energia liberada durante o terremoto: "<<ene<<endl;
                 }else{
                     system("cls");
-                    cout<<" Terremotos de 8.0 ou mais são enormes terremotos. Podem causar graves danos em muitas áreas mesmo que estejam \n a centenas de quilômetros.\n"<<endl;
+                    cout<<" Terremotos de 8.0 ou mais são enormes terremotos. Podem causar graves danos em muitas áreas mesmo que estejam \n a centenas de quil?metros.\n"<<endl;
                     cout<<" Terremoto de Magnitude: "<<mag<<endl;
                     cout<<" Energia liberada durante o terremoto: "<<ene<<endl;
                 }

@@ -3,24 +3,6 @@
 #include <iomanip>
 #include <math.h>
 
-/*Elabore uma planilha eletrônica ou um programa de computador que possibilite a execução
-das operações matemáticas básicas com números descritos em notação cientí­fica.
-
-O programe deve executar as seguintes operações:
-
-    1) Permitir que o usuário insira dois valores no formato de notação científica;
-    2) Permitir que o usuário escolha qual operação será realizada entre os valores informados;
-    2.1) Adição
-    2.2) Subtração
-    2.3) Multiplicação
-    2.4) Divisão
-    3) Calcular e apresentar o resultado correto da operação selecionada.
-
-O que será avaliado:
-    1) Organização das ideias e sequências de cálculos;
-    2) Resultados corretos;
-    3) O funcionamento correto do programa computacional.
-*/
 using namespace std;
 
 double num1(double x,double x1,double x2,double x3){
@@ -40,6 +22,7 @@ double num2(double y,double y1,double y2,double y3){
 }
 
 int main(){
+
     setlocale(LC_ALL,"portuguese");
 
     system("cls");

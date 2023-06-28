@@ -3,8 +3,7 @@
 
 using namespace std;
 
-int main()
-{
+int main(){
     int i,j,total1,total2;
 
     cout<<"Valor de i: ";
@@ -21,7 +20,6 @@ int main()
     }else{
         total2=pow(i,i)+pow(j,j);
     }
-     cout<<"Total2: "<<total2<<endl;
-
+    cout<<"Total2: "<<total2<<endl;
     return 0;
 }

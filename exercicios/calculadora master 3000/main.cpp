@@ -6,8 +6,8 @@
 
 using namespace std;
 
-int main()
-{
+int main(){
+    
     setlocale(LC_ALL,"portuguese");
 
     int vop;
@@ -17,12 +17,11 @@ int main()
 
         system("cls");
         cout<<"Bem-vindo a calculadora!"<<endl;
-        cout<<"\n1-Soma\n2-Subtração\n3-Multiplicação\n4-Divisão\n5-Potência\n6-2º grau\n7-Bhaskara\n8-Fatorial\n9-Sair"<<endl;
+        cout<<"\n1-Soma\n2-Subtração\n3-Multiplicação\n4-Divisão\n5-Pot~encia\n6-2º grau\n7-Bhaskara\n8-Fatorial\n9-Sair"<<endl;
         cout<<"\nSelecione uma opção: ";
         cin>>vop;
 
         switch(vop){
-
             case 1:
                 system("cls");
                 cout<<"Digite o valor de X: ";

@@ -35,8 +35,8 @@ void bhaskara(double &x,double &y,double &z,double &total,double &delta,double &
         total=(-y)/(2*x);
 
         }else{
-            total1=(-y+sqrt(delta))/(2*x);
-            total2=(-y-sqrt(delta))/(2*x);
+            total1=((-y)+(sqrt(delta)))/(2*x);
+            total2=((-y)-(sqrt(delta)))/(2*x);
     }
     }
 }

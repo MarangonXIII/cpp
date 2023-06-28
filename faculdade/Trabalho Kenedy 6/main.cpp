@@ -13,8 +13,7 @@ float determinante(float m[3][3])
     return det;
 }
 
-int main()
-{
+int main(){
 
     setlocale(LC_ALL,"portuguese");
 
